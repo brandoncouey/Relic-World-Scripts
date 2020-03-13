@@ -1,0 +1,32 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.70'
+}
+
+group 'relic-world-scripts'
+version '1.0.0'
+
+repositories {
+    mavenLocal()
+    jcenter()
+
+    maven {
+        url "https://jitpack.io"
+        credentials { username authToken }
+    }
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+    //implementation 'com.github.com:grizzlyentertainment:relic-world:1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}

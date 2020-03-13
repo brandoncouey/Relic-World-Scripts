@@ -1,2 +1,2 @@
-# Relic---World---Scripts
+# Relic-World-Scripts
 Shattered Relics World Servers Content Scripts
