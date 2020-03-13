@@ -13,14 +13,10 @@ repositories {
         url "https://jitpack.io"
         credentials { username authToken }
     }
-    flatDir {
-        dirs 'libs'
-    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
-    //implementation 'com.github.com:grizzlyentertainment:relic-world:1.0'
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
