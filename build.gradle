@@ -18,10 +18,11 @@ repositories {
     }
 }
 
+
 dependencies {
-    classpath 'com.android.tools.build:gradle:5.2.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
+
 
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
