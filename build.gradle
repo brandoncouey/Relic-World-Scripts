@@ -5,6 +5,8 @@ plugins {
 group 'relic-world-scripts'
 version '1.0.0'
 
+sourceCompatibility = 1.8
+
 repositories {
     mavenLocal()
     jcenter()
@@ -16,7 +18,7 @@ repositories {
 }
 
 dependencies {
-
+    implementation 'com.github.GrizzlyEntertainment:Relic-World:master'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
