@@ -20,6 +20,9 @@ repositories {
     }
 }
 
+dependencies {
+    compile 'com.github.GrizzlyEntertainment:Relic-World:0eb34fa7b4'
+}
 
 
 buildscript {
