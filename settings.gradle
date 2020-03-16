@@ -1,2 +1,4 @@
-rootProject.name = 'Relic-World-Scripts'
+rootProject.name = 'Relic-World-Public-Scripts'
+include 'scripts'
+include 'api'
 

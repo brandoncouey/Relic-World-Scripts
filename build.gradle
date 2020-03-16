@@ -1,47 +1,29 @@
-apply from: 'gradle/properties.gradle'
-apply from: 'gradle/wrapper.gradle'
-apply plugin: 'kotlin'
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.3.70'
+}
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-group 'relic-world-scripts'
+group 'com.shattered'
 version '1.0.0'
 
-sourceCompatibility = 1.8
+    sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-    jcenter()
-
-    maven {
-        url "https://jitpack.io"
-        credentials { username authToken }
-    }
-}
-
-dependencies {
-    compile 'com.github.GrizzlyEntertainment:Relic-World:master-SNAPSHOT'
-
-}
-
-
-buildscript {
-    ext.kotlin_version = '1.3.70'
     repositories {
         mavenCentral()
     }
+
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        compile 'org.projectlombok:lombok:1.18.12'
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     }
-}
-compileKotlin {
-    kotlinOptions {
-        jvmTarget = "1.8"
+    compileKotlin {
+        kotlinOptions {
+            jvmTarget = "1.8"
+        }
     }
-}
-compileTestKotlin {
-    kotlinOptions {
-        jvmTarget = "1.8"
+    compileTestKotlin {
+        kotlinOptions {
+            jvmTarget = "1.8"
+        }
     }
-}
