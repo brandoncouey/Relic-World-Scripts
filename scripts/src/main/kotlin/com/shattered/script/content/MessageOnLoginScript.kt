@@ -6,7 +6,7 @@ import com.shattered.script.types.CharacterScript
 class MessageOnLoginScript : CharacterScript() {
 
     override fun onWorldAwake(api: CharacterAPI?) {
-        api?.channel?.sendDefaultMessage("Hello!")
-    }
+        api?.channel?.sendDefaultMessage("Welcome to Shattered Relics faggot.")
+}
 
 }
