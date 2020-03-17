@@ -13,4 +13,12 @@ class HansScript : NPCScript() {
     override fun onNormalInteract(character: CharacterAPI?, npc: NpcAPI?) {
         character?.channel?.sendDefaultMessage("Hello ${character?.name}, how are you today?")
     }
+
+    override fun onShiftInteract(character: CharacterAPI?, npc: NpcAPI?) {
+        character?.channel?.sendDefaultMessage("What a queer.")
+    }
+
+    override fun onCntrlInteract(character: CharacterAPI?, npc: NpcAPI?) {
+        character?.channel?.sendDefaultMessage("Stop that.")
+    }
 }
