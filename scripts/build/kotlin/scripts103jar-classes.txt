@@ -1,0 +1,1 @@
+C:\Users\brrad\Documents\GitHub\Shattered-Relics\Relic-World-Scripts\scripts\build\classes\kotlin\main\com\shattered\script\commands\TestCommandScript.class;C:\Users\brrad\Documents\GitHub\Shattered-Relics\Relic-World-Scripts\scripts\build\classes\kotlin\main\com\shattered\script\content\MessageOnLoginScript.class

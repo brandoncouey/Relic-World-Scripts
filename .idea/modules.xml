@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.test.iml" />
+    </modules>
+  </component>
+</project>
