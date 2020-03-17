@@ -2,72 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436d3ea8-4c25-4692-8bf9-caa73fab0e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Relic-World-Scripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Relic-World-Scripts.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Relic-World-Scripts.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/content/TestScript.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/CharacterAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/ZoneAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/impl/RelicCharacterAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/impl/RelicZoneAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/script/types/CharacterScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/script/types/CommandScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/libs/api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/game/actor/character/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/RelicEngineAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/RelicZoneAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/character/RelicCharacterAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/character/RelicCharacterChannelAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/impl/ZoneAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/impl/character/CharacterAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/api/impl/character/CharacterChannelAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/types/CharacterScript.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/com/shattered/script/types/CommandScript.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/libs/api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/libs/api-all-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/game/actor/character/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/game/actor/npc/NPC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/game/actor/object/WorldObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/RelicEngineAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/RelicZoneAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/character/RelicCharacterAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/character/RelicCharacterChannelAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/impl/ZoneAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/impl/character/CharacterAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/impl/character/CharacterChannelAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/impl/npc/NpcAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/impl/object/ObjectAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/npc/RelicNpcAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/api/object/RelicObjectAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/types/CharacterScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/types/CommandScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/types/types/CharacterScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/types/types/CommandScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/types/types/NPCScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shattered/script/types/types/ObjectScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/RelicWorldPublicScripts100jar-classes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Relic-World-Public-Scripts-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/libs/scripts-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/libs/scripts-all-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/libs/scripts-all-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/libs/scripts-all-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/libs/scripts-all-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/tmp/packageScripts/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/tmp/packageScripts/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/content/TestScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/content/TestScript.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +144,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/api">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -96,6 +158,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Relic-World-Public-Scripts" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Public-Scripts" type="f1a62948:ProjectNode" />
+                <item name="api" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -132,17 +199,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/src/main/java/com/shattered/script/types" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\src\main\kotlin" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.shattered.script.content" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brrad\Documents\GitHub\Shattered-Relics\Relic-World-Scripts\libs" />
+      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java\com\shattered\script\types" />
+      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java\com\shattered\script" />
+      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java" />
+      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java\com\shattered\script\api" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shattered.script" />
@@ -154,21 +225,57 @@
       <recent name="com.shattered.script.api.npc" />
       <recent name="com.shattered.script.types" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java\com\shattered\script\types" />
-      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java\com\shattered\script" />
-      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java" />
-      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api\src\main\java\com\shattered\script\api" />
-      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\api" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brrad\Documents\GitHub\Shattered-Relics\Relic-World-Scripts\scripts" />
+      <recent name="C:\Users\Brad\Desktop\Shattered Relics\Relic-World-Public-Scripts\src\main\kotlin" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="gradle packageAPI" />
       <command value="gradle packageScripts" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Relic-World-Scripts [packageScripts]">
     <configuration name="Relic-World-Public-Scripts [packageScripts]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="packageScripts" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Relic-World-Scripts [packageAPI]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="packageAPI" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Relic-World-Scripts [packageScripts]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,6 +296,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Relic-World-Scripts [packageAPI]" />
+        <item itemvalue="Gradle.Relic-World-Scripts [packageScripts]" />
         <item itemvalue="Gradle.Relic-World-Public-Scripts [packageScripts]" />
       </list>
     </recent_temporary>
@@ -215,6 +324,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="277" y="95" key="#Project_Structure" timestamp="1584428835592">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="95" key="#Project_Structure/0.0.1368.872@0.0.1368.872" timestamp="1584428835592" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1584303970208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,21 +348,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584291599078" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584304710809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1584431974966">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1584431974966" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584304710809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1584431974966">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1584431974966" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584304710809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1584431974966">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1584431974966" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584304710809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1584431974966">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1584431974966" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1584291610943">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -263,9 +380,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="132" key="new project wizard/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584291706945" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1584304710799">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="450" y="212" width="672" height="568" key="run.anything.popup" timestamp="1584431974951">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state x="450" y="212" width="672" height="568" key="run.anything.popup/0.0.1368.872@0.0.1368.872" timestamp="1584431974951" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710799" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584304688097">
       <screen x="0" y="0" width="1920" height="1040" />

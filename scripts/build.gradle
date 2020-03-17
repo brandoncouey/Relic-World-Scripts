@@ -3,14 +3,19 @@ plugins {
 }
 
 group 'com.grizzly.shattered'
-version '1.0.3'
+version '1.0.5'
 
 repositories {
-    mavenCentral()
+    mavenLocal()
+    jcenter()
+    
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
-    implementation project(":api")
+    compile fileTree(dir: 'libs', include: '*.jar')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
