@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436d3ea8-4c25-4692-8bf9-caa73fab0e08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/build/libs/scripts-all-1.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/build/libs/scripts-all-1.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/HansScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/HansScript.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
