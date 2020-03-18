@@ -14,7 +14,8 @@ class HansScript : NPCScript() {
 
     override fun onNormalInteract(character: CharacterAPI, npc: NpcAPI) {
         character.channel?.sendDefaultMessage("Hello ${character.name}, how are you today?")
-        world.spawnNPC(2, Location(0, 0, 0), Rotation(0, 0, 0))
+        character.playAnimation(1)
+        world.spawnNPC(2, Location(-4175, -2322, 198), Rotation(0, 0, 0))
         character.channel.sendDefaultMessage("I just spawned a npc. ffs.")
 
     }

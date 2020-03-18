@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436d3ea8-4c25-4692-8bf9-caa73fab0e08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Relic-World-Scripts.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Relic-World-Scripts.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/TestCommandScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/TestCommandScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/content/MessageOnLoginScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/content/MessageOnLoginScript.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/HansScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/HansScript.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
