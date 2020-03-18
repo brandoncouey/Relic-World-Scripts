@@ -2,6 +2,9 @@ plugins {
     id 'org.jetbrains.kotlin.jvm'
 }
 
+apply from: 'gradle/properties.gradle'
+apply from: 'gradle/wrapper.gradle'
+
 group 'com.grizzly.shattered'
 version '1.0.11'
 
@@ -11,6 +14,7 @@ repositories {
 
     maven {
         url 'jitpack.io'
+        credentials { username authToken}
     }
     
     flatDir {

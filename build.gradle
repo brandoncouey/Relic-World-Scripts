@@ -7,7 +7,7 @@ apply from: 'gradle/properties.gradle'
 apply from: 'gradle/wrapper.gradle'
 
 group 'com.shattered'
-version '1.0.7'
+version '1.0.0'
 
     sourceCompatibility = 1.8
 
