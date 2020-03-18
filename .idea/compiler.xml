@@ -9,6 +9,8 @@
       <module name="Relic-World-Public-Scripts.scripts.test" target="11" />
       <module name="Relic-World-Public-Scripts.test" target="1.8" />
       <module name="Relic-World-Scripts.main" target="1.8" />
+      <module name="Relic-World-Scripts.scripts.main" target="11" />
+      <module name="Relic-World-Scripts.scripts.test" target="11" />
       <module name="Relic-World-Scripts.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -3,11 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.3.70'
 }
 
-apply from: 'gradle/properties.gradle'
-apply from: 'gradle/wrapper.gradle'
-
 group 'com.shattered'
-version '1.0.0'
+version '1.0.7'
 
     sourceCompatibility = 1.8
 

@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436d3ea8-4c25-4692-8bf9-caa73fab0e08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Relic-World-Public-Scripts.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Public-Scripts.api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Public-Scripts.scripts.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/properties.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +47,12 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Relic-World-Public-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Relic-World-Public-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Relic-World-Public-Scripts" type="f1a62948:ProjectNode" />
-                <item name="api" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -278,25 +286,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584291599078" />
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1584509245051">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1584512463873">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1584509245051" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1584512463873" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
-    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1584509245050">
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1584512463872">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1584509245050" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1584512463872" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
-    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1584509245050">
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1584512463871">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1584509245050" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1584512463871" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
-    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1584509245050">
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1584512463872">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1584509245050" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1584512463872" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584304710809" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1584291610943">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -306,6 +314,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.-109.1920.1040@0.0.1920.1040" timestamp="1584299148038" />
+    <state x="93" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1584512723616">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="93" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1368.872@0.0.1368.872" timestamp="1584512723616" />
     <state x="342" y="132" key="new project wizard" timestamp="1584291706945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
