@@ -1,5 +1,7 @@
 package com.shattered.script.npcs
 
+import com.shattered.game.actor.`object`.component.transform.Location
+import com.shattered.game.actor.`object`.component.transform.Rotation
 import com.shattered.script.api.impl.*
 import com.shattered.script.types.NPCScript
 
@@ -10,15 +12,18 @@ class HansScript : NPCScript() {
         return "hans"
     }
 
-    override fun onNormalInteract(character: CharacterAPI?, npc: NpcAPI?) {
-        character?.channel?.sendDefaultMessage("Hello ${character?.name}, how are you today?")
+    override fun onNormalInteract(character: CharacterAPI, npc: NpcAPI) {
+        character.channel?.sendDefaultMessage("Hello ${character.name}, how are you today?")
+        world.spawnNPC(2, Location(0, 0, 0), Rotation(0, 0, 0))
+        character.channel.sendDefaultMessage("I just spawned a npc. ffs.")
+
     }
 
-    override fun onShiftInteract(character: CharacterAPI?, npc: NpcAPI?) {
-        character?.channel?.sendDefaultMessage("${npc?.name} is not tryna fk with you..")
+    override fun onShiftInteract(character: CharacterAPI, npc: NpcAPI) {
+        character.channel?.sendDefaultMessage("${npc.name} is not tryna fk with you..")
     }
 
-    override fun onCntrlInteract(character: CharacterAPI?, npc: NpcAPI?) {
-        character?.channel?.sendDefaultMessage("You've interacted with  ${npc?.name}, ${character?.name}")
+    override fun onCntrlInteract(character: CharacterAPI, npc: NpcAPI) {
+        character.channel.sendDefaultMessage("You've interacted with ${npc.name}, ${character.name}")
     }
 }
