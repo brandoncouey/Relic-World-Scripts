@@ -1,6 +1,6 @@
 package com.shattered.script.commands
 
-import com.shattered.script.api.impl.character.CharacterAPI
+import com.shattered.script.api.impl.CharacterAPI
 import com.shattered.script.types.CommandScript
 
 class TestCommandScript : CommandScript() {
