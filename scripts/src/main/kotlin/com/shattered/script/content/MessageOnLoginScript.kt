@@ -5,8 +5,5 @@ import com.shattered.script.types.CharacterScript
 
 class MessageOnLoginScript : CharacterScript() {
 
-    override fun onWorldAwake(api: CharacterAPI?) {
-
-    }
 
 }

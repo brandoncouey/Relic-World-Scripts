@@ -1,30 +1,30 @@
 package com.shattered.script.npcs
 
-import com.shattered.game.actor.`object`.component.transform.Location
-import com.shattered.game.actor.`object`.component.transform.Rotation
-import com.shattered.script.api.impl.*
+import com.shattered.game.actor.character.component.quest.QuestState
+import com.shattered.script.api.impl.CharacterAPI
+import com.shattered.script.api.impl.NpcAPI
 import com.shattered.script.types.NPCScript
-
 
 class HansScript : NPCScript() {
 
-    override fun getNPCName(): String {
+    override fun fornpc(): String {
         return "hans"
     }
 
-    override fun onNormalInteract(character: CharacterAPI, npc: NpcAPI) {
-        character.channel?.sendDefaultMessage("Hello ${character.name}, how are you today?")
-        character.playAnimation(1)
-        world.spawnNPC(2, Location(-4175, -2322, 198), Rotation(0, 0, 0))
-        character.channel.sendDefaultMessage("I just spawned a npc. ffs.")
 
-    }
+    override fun on_normal_interact(character: CharacterAPI?, npc: NpcAPI?) {
 
-    override fun onShiftInteract(character: CharacterAPI, npc: NpcAPI) {
-        character.channel?.sendDefaultMessage("${npc.name} is not tryna fk with you..")
-    }
+        val quest = character?.quest
+        quest?.current_quest = "the_rope_quest"
 
-    override fun onCntrlInteract(character: CharacterAPI, npc: NpcAPI) {
-        character.channel.sendDefaultMessage("You've interacted with ${npc.name}, ${character.name}")
+        if (!quest?.acquired()!!) {
+
+            quest.acquire()
+
+            character.channel?.send_default_message("You're now on ${quest._stage} quest stage.")
+        } else {
+            character.channel?.send_default_message("Are you done?")
+        }
+
     }
 }
