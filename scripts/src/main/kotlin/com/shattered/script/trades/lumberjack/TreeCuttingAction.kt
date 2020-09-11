@@ -1,6 +1,5 @@
 package com.shattered.script.trades.lumberjack
 
-import com.shattered.game.actor.`object`.component.transform.Rotation
 import com.shattered.game.actor.`object`.item.ItemQuality
 import com.shattered.game.actor.character.component.interaction.InteractionModifier
 import com.shattered.script.types.ObjectActionScript

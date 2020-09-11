@@ -18,19 +18,19 @@ class HansScript : NPCScript() {
     override fun on_normal_interact(character: CharacterAPI, npc: NpcAPI) {
 
         val quest = character.quest
-        quest?.current_quest = "the_rope_quest"
+        quest.current_quest = "the_rope_quest"
 
 
-        if (!quest?.acquired()!!) {
+        if (!quest.acquired()) {
 
             quest.acquire()
 
-            character.channel!!.send_default_message("You're now on ${quest._stage} quest stage.")
+            character.channel.send_default_message("You're now on ${quest._stage} quest stage.")
         } else {
-            character.channel!!.send_default_message("Are you done?")
+            character.channel.send_default_message("Are you done?")
         }
 
-        character.containers?.inv_add_item(1);
+        character.containers.inv_add_item(1);
 
     }
 }

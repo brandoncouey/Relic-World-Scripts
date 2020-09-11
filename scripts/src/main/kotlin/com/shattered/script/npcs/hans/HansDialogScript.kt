@@ -68,7 +68,7 @@ open class HansDialogScript : NPCDialogScript() {
 
     fun open_vendor() {
         exit()
-        character!!.containers!!.vendor_open(npc, "default")
+        character!!.containers.vendor_open(npc, "default")
         character?.vars?.tvar_bool_set("talked-to-hans", true)
     }
 
