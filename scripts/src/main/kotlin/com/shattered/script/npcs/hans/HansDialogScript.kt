@@ -14,7 +14,7 @@ open class HansDialogScript : NPCDialogScript() {
     override fun on_start(character: CharacterAPI, npc: NpcAPI) {
         this.character = character;
         this.npc = npc;
-        single(npc._id, "Hello ${character.get_name()}, how may i help you?")
+        single(npc.id, "Hello ${character.name}, how may i help you?")
         options("Who are you?", "Do you have any materials for sale?", "Nothing, I was just leaving.")
     }
 
@@ -69,7 +69,7 @@ open class HansDialogScript : NPCDialogScript() {
     fun open_vendor() {
         exit()
         character!!.containers.vendor_open(npc, "default")
-        character?.vars?.tvar_bool_set("talked-to-hans", true)
+        character?.vars?.set_tbool("talked-to-hans", true)
     }
 
 

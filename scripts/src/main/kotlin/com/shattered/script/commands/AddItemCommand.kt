@@ -7,9 +7,9 @@ class AddItemCommand : CommandScript() {
 
 
     override fun on_execute(api: CharacterAPI?, args: Array<out String>?): Boolean {
-        val item = args!![1]
-        val amount = args[2]
-        api?.containers?.inv_add_item(args[1], args[2].toInt())
+        val item = args!![1].toString()
+        val amount = args[2].toInt()
+        api?.containers?.inv_add_item(item, amount)
         return true
     }
 

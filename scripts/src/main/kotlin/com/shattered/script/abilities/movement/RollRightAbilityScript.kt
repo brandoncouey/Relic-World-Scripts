@@ -14,8 +14,8 @@ class RollRightAbilityScript : AbilityScript() {
         return true
     }
 
-    override fun on_use(character: CharacterAPI?) {
-        character?.play_animation("roll right")
+    override fun on_use(character: CharacterAPI) {
+        character.play_animation("roll right")
     }
 
 

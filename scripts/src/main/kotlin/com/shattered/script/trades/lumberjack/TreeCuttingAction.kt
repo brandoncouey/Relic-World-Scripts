@@ -14,6 +14,10 @@ class TreeCuttingAction : ObjectActionScript() {
         return arrayOf("normal tree")
     }
 
+    override fun action_name(): String {
+        return "tree cutting"
+    }
+
     override fun can_start(): Boolean {
         if (!character.containers.equip_hands_contains("axe") &&
             !character.containers.equip_hands_contains("pickaxe")) {
@@ -28,9 +32,8 @@ class TreeCuttingAction : ObjectActionScript() {
         character.lock()
         character.play_animation("chop tree")
         character.display_cancel_timer("Chopping", 7)
-        character.channel.send_default_message("You begin to swing your axe at the ${obj.name}")
+        character.channel.send_default_message("You begin to swing your axe at the ${obj.name}.")
         wait(7)
-
     }
 
     override fun on_tick(): Int {

@@ -11,7 +11,7 @@ class LocalPlayers : CommandScript() {
 
     override fun on_execute(character: CharacterAPI?, args: Array<out String>?): Boolean {
         character?.zone?.characters?.forEach { n ->
-            character.channel.send_default_message("${n.get_name()} is at ${n.zone.location.toString()}")
+            character.channel.send_default_message("${n.name} is at ${n.zone.location.toString()}")
         }
         return true
     }

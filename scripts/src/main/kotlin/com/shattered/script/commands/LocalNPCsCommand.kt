@@ -10,8 +10,8 @@ class LocalNPCsCommand : CommandScript() {
     }
 
     override fun on_execute(character: CharacterAPI?, p1: Array<out String>?): Boolean {
-        character?.zone?.npCs?.forEach { n ->
-            character.channel.send_default_message("${n._name} is at ${n.zone.location.toString()}")
+        character?.zone?.npcs?.forEach { n ->
+            character.channel.send_default_message("${n.name} is at ${n.zone.location.toString()}")
         }
         return true
     }

@@ -16,6 +16,10 @@ class MiningAction : ObjectActionScript() {
         return InteractionModifier.NORMAL
     }
 
+    override fun action_name(): String {
+       return "mining"
+    }
+
     override fun can_start(): Boolean {
         if (!character.containers.equip_hands_contains("pickaxe")) {
             character.notify_required("You need a pickaxe to mine that!")

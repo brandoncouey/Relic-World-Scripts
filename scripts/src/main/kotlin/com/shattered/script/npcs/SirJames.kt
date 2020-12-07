@@ -16,7 +16,7 @@ class SirJames : NPCScript() {
     }
 
     override fun on_normal_interact(character: CharacterAPI, npc: NpcAPI) {
-        val coins = character.vars.get_var_int("coins")
+        val coins = character.vars.get_int("coins")
 
         if (coins < 3)
             character.channel.send_default_message("You are foolish! Come back when you have some real wealth.")
@@ -35,7 +35,7 @@ class SirJames : NPCScript() {
     }
 
     override fun on_cntrl_interact(character: CharacterAPI, npc: NpcAPI) {
-        character.channel.send_default_message("What do you want ${character.get_name()} ?")
+        character.channel.send_default_message("What do you want ${character.name} ?")
     }
 
 }

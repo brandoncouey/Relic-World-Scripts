@@ -25,7 +25,7 @@ class HansScript : NPCScript() {
 
             quest.acquire()
 
-            character.channel.send_default_message("You're now on ${quest._stage} quest stage.")
+            character.channel.send_default_message("You're now on ${quest.stage} quest stage.")
         } else {
             character.channel.send_default_message("Are you done?")
         }
