@@ -2,12 +2,13 @@ package com.shattered.script.abilities.magic
 
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
+import kotlin.random.Random
 
-class FireballMagicAbility : AbilityScript() {
+class ProjectileAbility : AbilityScript() {
 
 
     override fun name(): String {
-        return "fireball"
+        return "frostbolt"
     }
 
     override fun can_use(player: PlayerAPI): Boolean {
@@ -17,7 +18,7 @@ class FireballMagicAbility : AbilityScript() {
 
     override fun on_use(player: PlayerAPI) {
         val target = player.combat.target
-        player.combat.send_projectile("fireball", 60)
-        target.add_buff("fire", player, 15)
+        player.combat.send_projectile("frostbolt", 15)
     }
+
 }

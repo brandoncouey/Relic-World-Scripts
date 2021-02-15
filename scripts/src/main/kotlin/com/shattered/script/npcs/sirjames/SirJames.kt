@@ -1,6 +1,6 @@
 package com.shattered.script.npcs.sirjames
 
-import com.shattered.script.api.impl.CharacterAPI
+import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.api.impl.NpcAPI
 import com.shattered.script.types.NPCDialogScript
 
@@ -11,10 +11,10 @@ class SirJames : NPCDialogScript() {
     }
 
 
-    override fun on_start(character: CharacterAPI, npc: NpcAPI) {
-        this.character = character;
+    override fun on_start(player: PlayerAPI, npc: NpcAPI) {
+        this.player = player;
         this.npc = npc;
-        if (character.vars.get_tbool("talked-to-hans")!!) {
+        if (player.vars.get_tbool("talked-to-hans")!!) {
             single("My man! You've spoken to hans")
             options("yes i have!", "I was just leaving...")
             stage = 1
@@ -48,7 +48,7 @@ class SirJames : NPCDialogScript() {
             2 -> {
                 when (id) {
                     1 -> {
-                        character!!.containers.vendor_open(npc, "gathering.supplies")
+                        player!!.containers.vendor_open(npc, "gathering.supplies")
                         exit()
                     }
                     2 -> exit()

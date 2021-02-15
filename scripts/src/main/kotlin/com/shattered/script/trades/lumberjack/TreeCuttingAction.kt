@@ -1,7 +1,7 @@
 package com.shattered.script.trades.lumberjack
 
 import com.shattered.game.actor.`object`.item.ItemQuality
-import com.shattered.game.actor.character.component.interaction.InteractionModifier
+import com.shattered.game.actor.character.player.component.interaction.InteractionModifier
 import com.shattered.script.types.ObjectActionScript
 
 class TreeCuttingAction : ObjectActionScript() {
@@ -19,9 +19,9 @@ class TreeCuttingAction : ObjectActionScript() {
     }
 
     override fun can_start(): Boolean {
-        if (!character.containers.equip_hands_contains("axe") &&
-            !character.containers.equip_hands_contains("pickaxe")) {
-            character.notify_required("You need an axe to cut down this tree.")
+        if (!player.containers.equip_hands_contains("axe") &&
+            !player.containers.equip_hands_contains("pickaxe")) {
+            player.notify_required("You need an axe to cut down this tree.")
             return false
         }
         return true;
@@ -29,22 +29,22 @@ class TreeCuttingAction : ObjectActionScript() {
 
 
     override fun on_start() {
-        character.lock()
-        character.play_animation("chop tree")
-        character.display_cancel_timer("Chopping", 7)
-        character.channel.send_default_message("You begin to swing your axe at the ${obj.name}.")
+        player.lock()
+        player.play_animation("chop tree")
+        player.display_cancel_timer("Chopping", 7)
+        player.channel.send_default_message("You begin to swing your axe at the ${obj.name}.")
         wait(7)
     }
 
     override fun on_tick(): Int {
         val item = "Normal Logs"
-        character.containers.acquire_item(item, ItemQuality.POOR)
+        player.containers.acquire_item(item, ItemQuality.POOR)
         tree_finished()
-        character.channel.send_default_message("You get some $item.")
-        character.stop_animation()
-        character.unlock()
+        player.channel.send_default_message("You get some $item.")
+        player.stop_animation()
+        player.unlock()
         //TODO we have to make it so it increases the experience of the skill
-        //character.trade_increase_mat("item")
+        //player.trade_increase_mat("item")
         return -1
     }
 
@@ -57,7 +57,7 @@ class TreeCuttingAction : ObjectActionScript() {
     }
 
     override fun on_finished() {
-        character.stop_animation()
-        character.unlock()
+        player.stop_animation()
+        player.unlock()
     }
 }

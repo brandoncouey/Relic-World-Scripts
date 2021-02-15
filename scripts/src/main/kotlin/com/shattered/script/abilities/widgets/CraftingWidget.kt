@@ -1,6 +1,6 @@
 package com.shattered.script.abilities.widgets
 
-import com.shattered.script.api.impl.CharacterAPI
+import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.WidgetScript
 
 class CraftingWidget : WidgetScript() {
@@ -9,10 +9,10 @@ class CraftingWidget : WidgetScript() {
         return "creation"
     }
 
-    override fun on_clicked_widget(character: CharacterAPI, parameters: MutableList<Int>?, buttonId: Int) {
+    override fun on_clicked_widget(player: PlayerAPI, parameters: MutableList<Int>?, buttonId: Int) {
         val tradeId = parameters!![0]
         val productId = parameters[1]
         val quantity = parameters[2]
-        character.start_action("creation", tradeId, productId, quantity)
+        player.start_action("creation", tradeId, productId, quantity)
     }
 }

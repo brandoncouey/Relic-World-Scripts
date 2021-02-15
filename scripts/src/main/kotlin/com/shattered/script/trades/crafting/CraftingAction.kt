@@ -32,8 +32,8 @@ class CraftingAction() : ActionScript() {
     override fun can_start(): Boolean {
         if (quantity <= 0) return false;
         materials.forEach { n ->
-            if (!character.containers.inv_has_item(n.name, n.amount)) {
-                character.channel.send_default_message("You need ${n.amount} ${n.name} to craft this item.")
+            if (!player.containers.inv_has_item(n.name, n.amount)) {
+                    player.channel.send_default_message("You need ${n.amount} ${n.name} to craft this item.")
                 return false
             }
         }
@@ -42,9 +42,9 @@ class CraftingAction() : ActionScript() {
 
     override fun on_start() {
         val product = tables.item(productId)
-        character.channel.send_default_message("You begin to craft some ${product.name}")
+        player.channel.send_default_message("You begin to craft some ${product.name}")
         val timer = (4 * quantity)
-        character.display_cancel_timer("Crafting ${product.name}", timer)
+        player.display_cancel_timer("Crafting ${product.name}", timer)
         wait(4)
     }
 
@@ -56,18 +56,18 @@ class CraftingAction() : ActionScript() {
         materials.forEach { material ->
             val materialTable = tables.item(material.id)
             if (!materialTable.isTool)
-                character.containers.inv_delete_item(material)
+                player.containers.inv_delete_item(material)
         }
 
-        character.vars.increment_int(product.name)
-        character.containers.inv_add_item(productId, product.creationAmount)
-        character.channel.send_default_message("You craft a ${product.name}")
-        quantity--;
+        player.vars.increment_int(product.name)
+        player.containers.inv_add_item(productId, product.creationAmount)
+        player.channel.send_default_message("You craft a ${product.name}")
+        quantity--
         return 4
     }
 
     override fun on_finished() {
-        character.stop_animation()
+        player.stop_animation()
     }
 
 }

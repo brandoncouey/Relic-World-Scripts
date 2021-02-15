@@ -1,6 +1,6 @@
 package com.shattered.script.trades.mining
 
-import com.shattered.game.actor.character.component.interaction.InteractionModifier
+import com.shattered.game.actor.character.player.component.interaction.InteractionModifier
 import com.shattered.script.types.ObjectActionScript
 import kotlin.random.Random
 
@@ -21,18 +21,18 @@ class MiningAction : ObjectActionScript() {
     }
 
     override fun can_start(): Boolean {
-        if (!character.containers.equip_hands_contains("pickaxe")) {
-            character.notify_required("You need a pickaxe to mine that!")
+        if (!player.containers.equip_hands_contains("pickaxe")) {
+            player.notify_required("You need a pickaxe to mine that!")
             return false;
         }
        return true
     }
 
     override fun on_start() {
-        character.lock()
-        character.display_cancel_timer("Mining", 30)
-        character.play_animation("Swing Pickaxe Ground")
-        character.channel.send_default_message("You begin to mine the ${obj.name}")
+        player.lock()
+        player.display_cancel_timer("Mining", 30)
+        player.play_animation("Swing Pickaxe Ground")
+        player.channel.send_default_message("You begin to mine the ${obj.name}")
     }
 
     override fun on_tick(): Int {
@@ -41,8 +41,8 @@ class MiningAction : ObjectActionScript() {
         val chance = Random.nextInt(3)
 
         if (chance == 2) {
-            character.containers.acquire_item(obj.name)
-            character.channel.send_default_message("You successfully mine some ${obj.name}")
+            player.containers.acquire_item(obj.name)
+            player.channel.send_default_message("You successfully mine some ${obj.name}")
             return -1//stops the process
         }
 
@@ -50,8 +50,8 @@ class MiningAction : ObjectActionScript() {
     }
 
     override fun on_finished() {
-        character.unlock()
-        character.stop_animation()
+        player.unlock()
+        player.stop_animation()
     }
 
 

@@ -1,6 +1,6 @@
 package com.shattered.script.npcs.hans
 
-import com.shattered.script.api.impl.CharacterAPI
+import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.api.impl.NpcAPI
 import com.shattered.script.types.NPCDialogScript
 
@@ -11,10 +11,10 @@ open class HansDialogScript : NPCDialogScript() {
         return "hans"
     }
 
-    override fun on_start(character: CharacterAPI, npc: NpcAPI) {
-        this.character = character;
+    override fun on_start(player: PlayerAPI, npc: NpcAPI) {
+        this.player = player;
         this.npc = npc;
-        single(npc.id, "Hello ${character.name}, how may i help you?")
+        single(npc.id, "Hello ${player.name}, how may i help you?")
         options("Who are you?", "Do you have any materials for sale?", "Nothing, I was just leaving.")
     }
 
@@ -68,8 +68,8 @@ open class HansDialogScript : NPCDialogScript() {
 
     fun open_vendor() {
         exit()
-        character!!.containers.vendor_open(npc, "default")
-        character?.vars?.set_tbool("talked-to-hans", true)
+        player!!.containers.vendor_open(npc, "default")
+        player?.vars?.set_tbool("talked-to-hans", true)
     }
 
 

@@ -1,6 +1,6 @@
 package com.shattered.script.commands
 
-import com.shattered.script.api.impl.CharacterAPI
+import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.CommandScript
 
 class LocalNPCsCommand : CommandScript() {
@@ -9,9 +9,9 @@ class LocalNPCsCommand : CommandScript() {
         return "localnpcs"
     }
 
-    override fun on_execute(character: CharacterAPI?, p1: Array<out String>?): Boolean {
-        character?.zone?.npcs?.forEach { n ->
-            character.channel.send_default_message("${n.name} is at ${n.zone.location.toString()}")
+    override fun on_execute(player: PlayerAPI?, p1: Array<out String>?): Boolean {
+        player?.zone?.npcs?.forEach { n ->
+            player.channel.send_default_message("${n.name} is at ${n.zone.location.toString()}")
         }
         return true
     }

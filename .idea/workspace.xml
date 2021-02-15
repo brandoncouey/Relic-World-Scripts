@@ -2,33 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436d3ea8-4c25-4692-8bf9-caa73fab0e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/FireballMagicAbility.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/archery/LongArrowArcherAbility.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/widgets/CraftingWidget.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/items/ItemTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/objects/furnace/FurnaceScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/crafting/CraftingAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/fishing/FishSpotAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/herbalism/PickLeavesAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/HomeStoneAbility.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/ProjectileAbility.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/buffs/FireBuffScript.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/RejuvScript.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/classes/kotlin/main/com/shattered/script/content/MessageOnLoginScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/classes/kotlin/main/com/shattered/script/content/MessageOnLoginScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build/tmp/packageScripts/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build/tmp/packageScripts/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/libs/relic-world-api-all-0.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/libs/relic-world-api-all-0.0.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/FireballMagicAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/FireballMagicAbility.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/archery/LongArrowArcherAbility.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollBackwardAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollBackwardAbilityScript.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollForwardAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollForwardAbilityScript.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollLeftAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollLeftAbilityScript.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollRightAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollRightAbilityScript.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/widgets/CraftingWidget.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/widgets/CraftingWidget.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/AddItemCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/AddItemCommand.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/LocalNPCsCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/LocalNPCsCommand.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/LocalPlayers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/LocalPlayers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/LocationCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/LocationCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/ReloadScriptsCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/ReloadScriptsCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/SoundEffectCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/SoundEffectCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/UnlockCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/UnlockCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/content/MessageOnLoginScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/content/MessageOnLoginScript.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/items/ItemTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/items/ItemTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/SirJames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/SirJames.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/hans/HansDialogScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/hans/HansDialogScript.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/hans/HansScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/hans/HansScript.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/sirjames/SirJames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/sirjames/SirJames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/objects/SwordBarrellScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/objects/SwordBarrellScript.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/objects/furnace/FurnaceScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/objects/furnace/FurnaceScript.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/crafting/CraftingAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/crafting/CraftingAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/fishing/FishSpotAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/fishing/FishSpotAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/herbalism/PickLeavesAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/herbalism/PickLeavesAction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/lumberjack/TreeCuttingAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/lumberjack/TreeCuttingAction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/mining/MiningAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/mining/MiningAction.kt" afterDir="false" />
     </list>
@@ -65,12 +81,255 @@
         <task path="$PROJECT_DIR$/api">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/scripts">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="co.paralleluniverse:quasar-core:0.7.9" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="co.paralleluniverse:quasar-core:0.7.9" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+                <item name="com.esotericsoftware:kryo:4.0.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+                <item name="org.jetbrains.kotlin:kotlin-stdlib:1.3.70" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.70" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="co.paralleluniverse:quasar-core:0.7.9" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="co.paralleluniverse:quasar-core:0.7.9" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+                <item name="com.esotericsoftware:kryo:4.0.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+                <item name="org.jetbrains.kotlin:kotlin-stdlib:1.3.70" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.70" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Relic-World-Scripts" type="f1a62948:ProjectNode" />
+                <item name="scripts" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -113,7 +372,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -121,6 +380,7 @@
       <recent name="com.shattered.script.content" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.shattered.script.abilities.magic" />
       <recent name="com.shattered.script.abilities.movement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -306,7 +566,27 @@
       <workItem from="1605640619422" duration="1352000" />
       <workItem from="1606070166362" duration="1861000" />
       <workItem from="1606866463320" duration="6169000" />
-      <workItem from="1606939589761" duration="39520000" />
+      <workItem from="1606939589761" duration="44472000" />
+      <workItem from="1607508949357" duration="2085000" />
+      <workItem from="1608608805634" duration="661000" />
+      <workItem from="1608944683604" duration="488000" />
+      <workItem from="1609338499236" duration="7807000" />
+      <workItem from="1609607867331" duration="12199000" />
+      <workItem from="1609987871323" duration="46000" />
+      <workItem from="1610156308927" duration="14675000" />
+      <workItem from="1610492573817" duration="1199000" />
+      <workItem from="1610584964717" duration="598000" />
+      <workItem from="1610588613174" duration="598000" />
+      <workItem from="1610591282748" duration="15917000" />
+      <workItem from="1610662274776" duration="831000" />
+      <workItem from="1610664955438" duration="1846000" />
+      <workItem from="1610837121386" duration="632000" />
+      <workItem from="1610850938859" duration="667000" />
+      <workItem from="1610933487717" duration="1279000" />
+      <workItem from="1611685352987" duration="1210000" />
+      <workItem from="1612045432623" duration="606000" />
+      <workItem from="1612890340710" duration="889000" />
+      <workItem from="1613260757999" duration="5255000" />
     </task>
     <servers />
   </component>
@@ -317,66 +597,60 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="710" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599639776636">
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1610597449327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="710" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599639776636" />
-    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1607326164238">
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610597449327" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1609607881000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607326164238" />
-    <state x="2671" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600117172542" />
-    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1601110070267">
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609607881000" />
+    <state x="740" y="221" key="FileChooserDialogImpl" timestamp="1609561083555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601110070267" />
-    <state x="740" y="221" key="FileChooserDialogImpl" timestamp="1607294108294">
+    <state x="740" y="221" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609561083555" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610933564294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="221" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607294108294" />
-    <state x="2660" y="221" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600573158762" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607331593956">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610933564294" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610661812677" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610933564294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-231.1920.1040/-3840.-231.1920.1040@-3840.-231.1920.1040" timestamp="1598346356927" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607331593956" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600132131351" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607331593956">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610933564294" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610661812677" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610933564294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-231.1920.1040/-3840.-231.1920.1040@-3840.-231.1920.1040" timestamp="1598346356927" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607331593956" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600132131351" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607331593956">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610933564294" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610661812677" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610933564294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-231.1920.1040/-3840.-231.1920.1040@-3840.-231.1920.1040" timestamp="1598346356926" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607331593956" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600132131351" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607331593956">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610933564294" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610661812677" />
+    <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1609561086131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-231.1920.1040/-3840.-231.1920.1040@-3840.-231.1920.1040" timestamp="1598346356927" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607331593956" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600132131351" />
-    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600153708746">
+    <state x="625" y="219" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609561086131" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1608944913754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608944913754" />
+    <state x="2576" y="252" width="737" height="606" key="find.popup" timestamp="1610290167655">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600153708746" />
-    <state x="-3184" y="21" width="607" height="536" key="find.popup" timestamp="1598346285818">
-      <screen x="-3840" y="-231" width="1920" height="1040" />
-    </state>
-    <state x="-3184" y="21" width="607" height="536" key="find.popup/0.0.1920.1040/-1920.-231.1920.1040/-3840.-231.1920.1040@-3840.-231.1920.1040" timestamp="1598346285818" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1607331593940">
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609759972517" />
+    <state x="2576" y="252" width="737" height="606" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610290167655" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1610933564278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607331593940" />
-    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600153716918" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607289063946">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610933564278" />
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610661812657" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613260860373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-231.1920.1040/-3840.-231.1920.1040@0.0.1920.1040" timestamp="1598406078863" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607289063946" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600153585983" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613260848002" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613260860373" />
   </component>
 </project>

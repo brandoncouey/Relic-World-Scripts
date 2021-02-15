@@ -1,6 +1,6 @@
 package com.shattered.script.npcs.hans
 
-import com.shattered.script.api.impl.CharacterAPI
+import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.api.impl.NpcAPI
 import com.shattered.script.types.NPCScript
 
@@ -15,9 +15,9 @@ class HansScript : NPCScript() {
     }
 
 
-    override fun on_normal_interact(character: CharacterAPI, npc: NpcAPI) {
+    override fun on_normal_interact(player: PlayerAPI, npc: NpcAPI) {
 
-        val quest = character.quest
+        val quest = player.quest
         quest.current_quest = "the_rope_quest"
 
 
@@ -25,12 +25,12 @@ class HansScript : NPCScript() {
 
             quest.acquire()
 
-            character.channel.send_default_message("You're now on ${quest.stage} quest stage.")
+            player.channel.send_default_message("You're now on ${quest.stage} quest stage.")
         } else {
-            character.channel.send_default_message("Are you done?")
+            player.channel.send_default_message("Are you done?")
         }
 
-        character.containers.inv_add_item(1);
+        player.containers.inv_add_item(1);
 
     }
 }

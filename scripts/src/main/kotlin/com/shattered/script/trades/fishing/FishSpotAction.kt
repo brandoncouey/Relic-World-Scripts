@@ -1,7 +1,7 @@
 package com.shattered.script.trades.fishing
 
 import com.shattered.game.actor.`object`.item.ItemQuality
-import com.shattered.game.actor.character.component.interaction.InteractionModifier
+import com.shattered.game.actor.character.player.component.interaction.InteractionModifier
 import com.shattered.script.types.ObjectActionScript
 
 class FishSpotAction : ObjectActionScript() {
@@ -23,24 +23,24 @@ class FishSpotAction : ObjectActionScript() {
     }
 
     override fun on_start() {
-        character.lock()
-        character.play_animation("fishing")
-        character.channel.send_default_message("You cast your fishing reel out into the water.")
+        player.lock()
+        player.play_animation("fishing")
+        player.channel.send_default_message("You cast your fishing reel out into the water.")
         wait(12)
     }
 
     override fun on_tick(): Int {
         val fish = "Trout"
-        character.containers.acquire_item("Uncooked $fish", ItemQuality.POOR)
-        character.channel.send_default_message("You manage to catch a $fish.")
-        character.stop_animation()
-        character.unlock()
+        player.containers.acquire_item("Uncooked $fish", ItemQuality.POOR)
+        player.channel.send_default_message("You manage to catch a $fish.")
+        player.stop_animation()
+        player.unlock()
         //TODO we have to make it so it increases the experience of the skill
         return -1
     }
 
     override fun on_finished() {
-        character.stop_animation()
-        character.unlock()
+        player.stop_animation()
+        player.unlock()
     }
 }
