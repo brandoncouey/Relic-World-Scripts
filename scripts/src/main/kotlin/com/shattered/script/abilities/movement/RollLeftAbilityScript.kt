@@ -14,6 +14,10 @@ class RollLeftAbilityScript : AbilityScript() {
         return true
     }
 
+    override fun on_cast(p0: PlayerAPI?) {
+        TODO("Not yet implemented")
+    }
+
     override fun on_use(player: PlayerAPI?) {
         player?.play_animation("roll left")
     }
