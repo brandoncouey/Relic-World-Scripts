@@ -1,13 +1,13 @@
-package com.shattered.script.abilities.magic
+package com.shattered.script.abilities.archery
 
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
 
-class ArcaneShot : AbilityScript() {
+class WepferShot : AbilityScript() {
 
 
     override fun name(): String {
-        return "arcane_shot"
+        return "wepfer_shot"
     }
 
     override fun can_use(player: PlayerAPI): Boolean {
@@ -26,7 +26,8 @@ class ArcaneShot : AbilityScript() {
     override fun on_use(player: PlayerAPI) {
         val target = player.combat.target
         player.play_animation("cast_instant_arrow")
-        player.combat.send_projectile("arrow", 25)
+        player.combat.send_projectile("arrow", 15)
+        player.combat.heal(player, 2)
     }
 
 

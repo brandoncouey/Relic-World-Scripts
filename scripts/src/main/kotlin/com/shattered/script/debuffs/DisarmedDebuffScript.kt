@@ -1,11 +1,11 @@
-package com.shattered.script.buffs
+package com.shattered.script.debuffs
 
 import com.shattered.script.types.BuffScript
 
-class FireBuffScript : BuffScript() {
+class DisarmedDebuffScript : BuffScript() {
 
     override fun name(): String {
-        return "fire"
+        return "disarmed"
     }
 
     override fun can_apply(): Boolean {
@@ -17,8 +17,7 @@ class FireBuffScript : BuffScript() {
     }
 
     override fun on_tick(): Int {
-        source!!.combat.hit(character, 5)
-        return 2
+        return 1
     }
 
     override fun on_finished() {
