@@ -27,6 +27,7 @@ class SteadyAimAbility : AbilityScript() {
         val target = player.combat.target
         player.play_animation("cast_fire_arrow")
         player.combat.send_projectile("arrow", 60)
+        player.vars.increment_int("energy", 15)
     }
 
 }

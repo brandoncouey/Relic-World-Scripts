@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Relic - World Scripts.Relic-World-Scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/Relic - World Scripts.Relic-World-Scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/Relic - World Scripts.Relic-World-Scripts.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/Relic - World Scripts.Relic-World-Scripts.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Relic-World-Scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/Relic-World-Scripts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/Relic-World-Scripts.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/Relic-World-Scripts.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Scripts.scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Scripts.scripts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Scripts.scripts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Scripts.scripts.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Scripts.scripts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/Relic-World-Scripts.scripts.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/Shattered Relics.Relic-World-Scripts.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/Shattered Relics.Relic-World-Scripts.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/com.grizzly.shattered.Relic-World-Scripts.scripts.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/com.grizzly.shattered.Relic-World-Scripts.scripts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/com.grizzly.shattered.Relic-World-Scripts.scripts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/com.grizzly.shattered.Relic-World-Scripts.scripts.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/com.grizzly.shattered.Relic-World-Scripts.scripts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/com.grizzly.shattered.Relic-World-Scripts.scripts.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/scripts.Relic-World-Scripts.scripts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/scripts.Relic-World-Scripts.scripts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scripts/scripts.Relic-World-Scripts.scripts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scripts/scripts.Relic-World-Scripts.scripts.test.iml" />
     </modules>
   </component>
 </project>

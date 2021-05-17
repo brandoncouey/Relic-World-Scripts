@@ -16,6 +16,8 @@ class ArcaneShot : AbilityScript() {
             return false
         }
         val target = player.combat.target ?: return false
+
+        if (player.vars.get_int("energy") < 25) return false
         return player.zone.is_within_distance(target, 1800)
     }
 
@@ -27,6 +29,7 @@ class ArcaneShot : AbilityScript() {
         val target = player.combat.target
         player.play_animation("cast_instant_arrow")
         player.combat.send_projectile("arrow", 25)
+        player.vars.decrement_int("energy", 35)
     }
 
 

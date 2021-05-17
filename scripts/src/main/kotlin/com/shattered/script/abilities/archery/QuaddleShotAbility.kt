@@ -3,11 +3,12 @@ package com.shattered.script.abilities.archery
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
 
-class WepferShot : AbilityScript() {
+class QuaddleShotAbility : AbilityScript() {
+
 
 
     override fun name(): String {
-        return "wepfer_shot"
+        return "quaddle"
     }
 
     override fun can_use(player: PlayerAPI): Boolean {
@@ -15,9 +16,8 @@ class WepferShot : AbilityScript() {
             player.channel.send_default_message("You need a bow to use this ability.")
             return false
         }
-        val target = player.combat.target ?: return false
-        if (player.vars.get_int("energy") < 60) return false
-        return player.zone.is_within_distance(target, 1800)
+        if (player.vars.get_int("energy") < 80) return false
+        return true
     }
 
     override fun on_cast(player: PlayerAPI) {
@@ -25,11 +25,12 @@ class WepferShot : AbilityScript() {
     }
 
     override fun on_use(player: PlayerAPI) {
-        val target = player.combat.target
         player.play_animation("cast_instant_arrow")
-        player.combat.send_projectile("arrow", 15)
-        player.combat.heal(player, 2)
-        player.vars.decrement_int("energy", 60)
+        val targets = player.combat.getPossibleTargets(5)
+        player.vars.decrement_int("energy", 80)
+        targets.forEach { tar ->
+            player.combat.send_projectile("arrow", tar, 15)
+        }
     }
 
 
