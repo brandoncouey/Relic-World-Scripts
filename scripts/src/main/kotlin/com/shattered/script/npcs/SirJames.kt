@@ -16,12 +16,7 @@ class SirJames : NPCScript() {
     }
 
     override fun on_normal_interact(player: PlayerAPI, npc: NpcAPI) {
-        val coins = player.vars.get_int("coins")
-
-        if (coins < 3)
-            player.channel.send_default_message("You are foolish! Come back when you have some real wealth.")
-        else
-            player.channel.send_default_message("How can i help you?")
+        player!!.containers.vendor_open(npc, "default")
     }
 
     override fun on_shift_interact(player: PlayerAPI, npc: NpcAPI) {
