@@ -16,8 +16,9 @@ class ProjectileAbility : AbilityScript() {
         return player.zone.is_within_distance(target, 1800)
     }
 
-    override fun on_cast(player: PlayerAPI) {
+    override fun on_cast(player: PlayerAPI) : Boolean {
         player.play_animation("cast_fireball")
+        return true
     }
 
     //on_cast
@@ -26,6 +27,10 @@ class ProjectileAbility : AbilityScript() {
         val target = player.combat.target
         player.play_animation("endcast_fireball")
         player.combat.send_projectile("frostbolt", 15)
+
+        val snaredTime = target.combat.snare(6)
+        if (snaredTime > 0)
+            target.add_buff("snared", player, snaredTime)
     }
 
 }

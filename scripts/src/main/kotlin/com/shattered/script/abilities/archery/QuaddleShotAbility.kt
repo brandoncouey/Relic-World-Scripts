@@ -20,13 +20,9 @@ class QuaddleShotAbility : AbilityScript() {
         return true
     }
 
-    override fun on_cast(player: PlayerAPI) {
-
-    }
-
     override fun on_use(player: PlayerAPI) {
         player.play_animation("cast_instant_arrow")
-        val targets = player.combat.getPossibleTargets(5)
+        val targets = player.combat.get_possible_targets(5)
         player.vars.decrement_int("energy", 80)
         targets.forEach { tar ->
             player.combat.send_projectile("arrow", tar, 15)

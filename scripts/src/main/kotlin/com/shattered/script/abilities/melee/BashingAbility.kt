@@ -14,8 +14,6 @@ class BashingAbility : AbilityScript() {
         return true
     }
 
-    override fun on_cast(player: PlayerAPI) {
-    }
 
     override fun on_use(player: PlayerAPI) {
         player.play_animation("twohand_twinblade_swing_01")

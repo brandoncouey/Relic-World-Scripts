@@ -21,9 +21,6 @@ class ArcaneShot : AbilityScript() {
         return player.zone.is_within_distance(target, 1800)
     }
 
-    override fun on_cast(player: PlayerAPI) {
-
-    }
 
     override fun on_use(player: PlayerAPI) {
         val target = player.combat.target

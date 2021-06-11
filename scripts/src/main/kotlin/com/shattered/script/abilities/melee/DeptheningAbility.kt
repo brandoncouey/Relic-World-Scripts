@@ -14,9 +14,6 @@ class DeptheningAbility : AbilityScript() {
         return true
     }
 
-    override fun on_cast(player: PlayerAPI) {
-    }
-
     override fun on_use(player: PlayerAPI) {
         player.play_animation("twohand_twinblade_stab_01")
 

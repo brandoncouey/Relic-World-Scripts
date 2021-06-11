@@ -16,10 +16,6 @@ class HomeStoneAbility : AbilityScript() {
         return true
     }
 
-    override fun on_cast(p0: PlayerAPI?) {
-        TODO("Not yet implemented")
-    }
-
     override fun on_use(player: PlayerAPI) {
         world.spawn_npc("rejuv", selectedCoordinate)
        // player.zone.teleport(selectedCoordinate)

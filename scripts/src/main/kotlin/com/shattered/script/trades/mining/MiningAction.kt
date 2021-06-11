@@ -29,7 +29,6 @@ class MiningAction : ObjectActionScript() {
     }
 
     override fun on_start() {
-        player.lock()
         player.display_cancel_timer("Mining", 30)
         player.play_animation("Swing Pickaxe Ground")
         player.channel.send_default_message("You begin to mine the ${obj.name}")
@@ -50,7 +49,6 @@ class MiningAction : ObjectActionScript() {
     }
 
     override fun on_finished() {
-        player.unlock()
         player.stop_animation()
     }
 

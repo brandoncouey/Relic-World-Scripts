@@ -23,7 +23,7 @@ class SirJames : NPCScript() {
         val quest = player.quest
         quest.current_quest = "the_rope_quest"
 
-        if (!quest.acquired())
+        if (!quest.discovered())
             player.channel.send_default_message("You're not allowed here!")
         else
             player.channel.send_default_message("A friend of hans is a friend of mine.")

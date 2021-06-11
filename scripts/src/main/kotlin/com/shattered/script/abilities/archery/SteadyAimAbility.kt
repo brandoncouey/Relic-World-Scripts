@@ -19,8 +19,9 @@ class SteadyAimAbility : AbilityScript() {
         return player.zone.is_within_distance(target, 1800)
     }
 
-    override fun on_cast(player: PlayerAPI) {
+    override fun on_cast(player: PlayerAPI) : Boolean {
         player.play_animation("cast_aim_arrow")
+        return true
     }
 
     override fun on_use(player: PlayerAPI) {

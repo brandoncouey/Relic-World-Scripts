@@ -2,6 +2,7 @@ package com.shattered.script.abilities.magic
 
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
+import java.util.*
 
 class FireballMagicAbility : AbilityScript() {
 
@@ -15,8 +16,9 @@ class FireballMagicAbility : AbilityScript() {
         return player.zone.is_within_distance(target, 1800)
     }
 
-    override fun on_cast(player: PlayerAPI) {
-        player.play_animation("cast_fireball")
+    override fun on_cast(character: PlayerAPI?): Boolean {
+        character!!.play_animation("cast_fireball")
+        return true
     }
 
     override fun on_use(player: PlayerAPI) {

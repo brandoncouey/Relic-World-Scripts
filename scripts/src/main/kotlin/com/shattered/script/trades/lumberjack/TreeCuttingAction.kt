@@ -29,9 +29,7 @@ class TreeCuttingAction : ObjectActionScript() {
 
 
     override fun on_start() {
-        player.lock()
         player.play_animation("chop tree")
-        player.display_cancel_timer("Chopping", 7)
         player.channel.send_default_message("You begin to swing your axe at the ${obj.name}.")
         wait(7)
     }
@@ -58,6 +56,5 @@ class TreeCuttingAction : ObjectActionScript() {
 
     override fun on_finished() {
         player.stop_animation()
-        player.unlock()
     }
 }

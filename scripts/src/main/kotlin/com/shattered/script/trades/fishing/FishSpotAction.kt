@@ -23,24 +23,21 @@ class FishSpotAction : ObjectActionScript() {
     }
 
     override fun on_start() {
-        player.lock()
         player.play_animation("fishing")
-        player.channel.send_default_message("You cast your fishing reel out into the water.")
+        player.channel.send_default_message("You cast your fishing rod out into the water.")
         wait(12)
     }
 
     override fun on_tick(): Int {
         val fish = "Trout"
-        player.containers.acquire_item("Uncooked $fish", ItemQuality.POOR)
+        player.containers.acquire_item("Raw $fish", ItemQuality.POOR)
         player.channel.send_default_message("You manage to catch a $fish.")
         player.stop_animation()
-        player.unlock()
         //TODO we have to make it so it increases the experience of the skill
         return -1
     }
 
     override fun on_finished() {
         player.stop_animation()
-        player.unlock()
     }
 }
