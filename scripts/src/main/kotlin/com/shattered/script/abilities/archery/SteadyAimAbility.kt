@@ -15,8 +15,7 @@ class SteadyAimAbility : AbilityScript() {
             player.channel.send_default_message("You need a bow to use this ability.")
             return false
         }
-        val target = player.combat.target ?: return false
-        return player.zone.is_within_distance(target, 1800)
+       return true
     }
 
     override fun on_cast(player: PlayerAPI) : Boolean {
@@ -26,9 +25,13 @@ class SteadyAimAbility : AbilityScript() {
 
     override fun on_use(player: PlayerAPI) {
         val target = player.combat.target
-        player.play_animation("cast_fire_arrow")
-        player.combat.send_projectile("arrow", 60)
-        player.vars.increment_int("energy", 15)
+
+        if (player.zone.is_within_distance(target, 1800)) {
+            player.play_animation("cast_fire_arrow")
+            player.combat.send_projectile("arrow", 60, this)
+            player.vars.increment_int("energy", 15)
+        } else
+            player.top_warning_message("You are too far away.")
     }
 
 }

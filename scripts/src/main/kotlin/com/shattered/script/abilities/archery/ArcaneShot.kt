@@ -1,5 +1,6 @@
 package com.shattered.script.abilities.archery
 
+import com.shattered.script.api.RelicCharacterAPI
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
 
@@ -25,7 +26,7 @@ class ArcaneShot : AbilityScript() {
     override fun on_use(player: PlayerAPI) {
         val target = player.combat.target
         player.play_animation("cast_instant_arrow")
-        player.combat.send_projectile("arrow", 25)
+        player.combat.send_projectile("arrow", 25, this)
         player.vars.decrement_int("energy", 35)
     }
 

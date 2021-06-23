@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436d3ea8-4c25-4692-8bf9-caa73fab0e08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/debuffs/DisorientedDebuffScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/debuffs/MagicLockedDebuffScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/debuffs/SnaredDebuffScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/debuffs/StunnedDebuffScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/items/FishHealTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/combat/ThiefCombatScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/objects/FireScript.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/commands/StuckCommand.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/libs/relic-world-api-all-0.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/libs/relic-world-api-all-0.0.4.jar" afterDir="false" />
@@ -23,24 +17,7 @@
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/archery/QuaddleShotAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/archery/QuaddleShotAbility.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/archery/SteadyAimAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/archery/SteadyAimAbility.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/archery/WepferShot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/archery/WepferShot.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/FireballMagicAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/FireballMagicAbility.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/HomeStoneAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/HomeStoneAbility.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/ProjectileAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/magic/ProjectileAbility.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/BashingAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/BashingAbility.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/DeptheningAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/DeptheningAbility.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/SevereAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/SevereAbility.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/SliceNDiceAbility.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/melee/SliceNDiceAbility.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollBackwardAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollBackwardAbilityScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollForwardAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollForwardAbilityScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollLeftAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollLeftAbilityScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollRightAbilityScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/abilities/movement/RollRightAbilityScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/items/ItemTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/items/ItemTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/RejuvScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/RejuvScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/SirJames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/npcs/SirJames.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/fishing/FishSpotAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/fishing/FishSpotAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/herbalism/PickLeavesAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/herbalism/PickLeavesAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/lumberjack/TreeCuttingAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/lumberjack/TreeCuttingAction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/mining/MiningAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/src/main/kotlin/com/shattered/script/trades/mining/MiningAction.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,11 +353,11 @@
       <recent name="com.shattered.script.content" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.shattered.script.commands" />
       <recent name="com.shattered.script.debuffs" />
       <recent name="com.shattered.script.abilities.widgets" />
       <recent name="com.shattered.script.abilities.melee" />
       <recent name="com.shattered.script.abilities.magic" />
-      <recent name="com.shattered.script.abilities.movement" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brrad\Documents\GitHub\Shattered-Relics\Relic-World-Scripts\scripts" />
@@ -615,7 +592,15 @@
       <workItem from="1622447111905" duration="9216000" />
       <workItem from="1622759825684" duration="17793000" />
       <workItem from="1623192847396" duration="48000" />
-      <workItem from="1623197666206" duration="16637000" />
+      <workItem from="1623197666206" duration="17236000" />
+      <workItem from="1623564576206" duration="599000" />
+      <workItem from="1623621118794" duration="816000" />
+      <workItem from="1623686091401" duration="597000" />
+      <workItem from="1623702666102" duration="3000" />
+      <workItem from="1623809657733" duration="5713000" />
+      <workItem from="1624217128815" duration="7582000" />
+      <workItem from="1624330872018" duration="1805000" />
+      <workItem from="1624389429309" duration="193000" />
     </task>
     <servers />
   </component>
@@ -631,62 +616,64 @@
     </state>
     <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616978201606" />
     <state x="2671" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617249789950" />
-    <state x="4648" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1622449716415">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1623809665005">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="343" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1368.872@0.0.1368.872" timestamp="1618213648033" />
+    <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1623809665005" />
     <state x="4648" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1622449716415" />
     <state x="2572" y="184" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1617253103141">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2572" y="184" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617253103141" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1623386418782">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1624262023719">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616963880610" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623315816412" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1623386418782" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624213989252" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624262023719" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1623192837578" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616126865244" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1623386418782">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1624262023719">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616963880609" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623315816412" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1623386418782" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624213989252" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624262023719" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1623192837577" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616126865243" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1623386418782">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1624262023719">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616963880609" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623315816412" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1623386418782" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624213989252" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624262023719" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1623192837577" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616126865243" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1623386418782">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1624262023719">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616963880610" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623315816412" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1623386418782" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624213989252" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624262023719" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1623192837577" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616126865243" />
     <state x="186" y="23" key="SettingsEditor" timestamp="1621676686063">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="23" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1621676686063" />
-    <state x="4496" y="252" width="737" height="606" key="find.popup" timestamp="1623030858740">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state x="656" y="252" width="737" height="606" key="find.popup" timestamp="1624217134475">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="656" y="252" width="737" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624217134475" />
     <state x="4496" y="252" width="737" height="606" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1623030858740" />
     <state x="656" y="252" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616121146616" />
-    <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1623386267803">
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1624226095944">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1304" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1616963880597" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623315816382" />
-    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1623386267803" />
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624226095944" />
     <state x="4456" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/3840.0.1920.1040/1920.0.1920.1040@3840.0.1920.1040" timestamp="1623197840294" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616126865230" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623314491655">

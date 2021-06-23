@@ -23,7 +23,6 @@ class RejuvScript : NPCScript() {
             if (npc.zone.is_within_distance(p, 360)) {
                 //person to heal -> source
                 p.combat.heal(npc, 15)
-                println("We are healing player ${p.name}")
             }
         }
 

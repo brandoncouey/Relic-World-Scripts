@@ -25,7 +25,7 @@ class QuaddleShotAbility : AbilityScript() {
         val targets = player.combat.get_possible_targets(5)
         player.vars.decrement_int("energy", 80)
         targets.forEach { tar ->
-            player.combat.send_projectile("arrow", tar, 15)
+            player.combat.send_projectile("arrow", tar, 15, this)
         }
     }
 
