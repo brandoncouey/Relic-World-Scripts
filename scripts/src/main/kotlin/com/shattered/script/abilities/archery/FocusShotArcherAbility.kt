@@ -3,7 +3,7 @@ package com.shattered.script.abilities.archery
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
 
-class SteadyAimAbility : AbilityScript() {
+class FocusShotArcherAbility : AbilityScript() {
 
 
     override fun name(): String {

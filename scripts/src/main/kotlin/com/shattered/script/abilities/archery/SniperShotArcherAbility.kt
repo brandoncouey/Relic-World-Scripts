@@ -1,14 +1,14 @@
 package com.shattered.script.abilities.archery
 
+import com.shattered.script.api.RelicCharacterAPI
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
 
-class QuaddleShotAbility : AbilityScript() {
-
+class SniperShotArcherAbility : AbilityScript() {
 
 
     override fun name(): String {
-        return "quaddle"
+        return "arcane_shot"
     }
 
     override fun can_use(player: PlayerAPI): Boolean {
@@ -16,17 +16,18 @@ class QuaddleShotAbility : AbilityScript() {
             player.channel.send_default_message("You need a bow to use this ability.")
             return false
         }
-        if (player.vars.get_int("energy") < 80) return false
-        return true
+        val target = player.combat.target ?: return false
+
+        if (player.vars.get_int("energy") < 25) return false
+        return player.zone.is_within_distance(target, 2300)
     }
 
+
     override fun on_use(player: PlayerAPI) {
+        val target = player.combat.target
         player.play_animation("cast_instant_arrow")
-        val targets = player.combat.get_possible_targets(5)
-        player.vars.decrement_int("energy", 80)
-        targets.forEach { tar ->
-            player.combat.send_projectile("arrow", tar, 15, this)
-        }
+        player.combat.send_projectile("arrow", 25, this)
+        player.vars.decrement_int("energy", 35)
     }
 
 

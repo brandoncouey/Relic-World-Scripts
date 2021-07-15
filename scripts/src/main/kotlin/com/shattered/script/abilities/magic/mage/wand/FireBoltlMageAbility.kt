@@ -1,14 +1,14 @@
-package com.shattered.script.abilities.magic
+package com.shattered.script.abilities.magic.mage.wand
 
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
-import kotlin.random.Random
+import java.util.*
 
-class ProjectileAbility : AbilityScript() {
+class FireBoltlMageAbility : AbilityScript() {
 
 
     override fun name(): String {
-        return "frostbolt"
+        return "fireball"
     }
 
     override fun can_use(player: PlayerAPI): Boolean {
@@ -16,21 +16,21 @@ class ProjectileAbility : AbilityScript() {
         return player.zone.is_within_distance(target, 1800)
     }
 
-    override fun on_cast(player: PlayerAPI) : Boolean {
-        player.play_animation("cast_fireball")
+    override fun on_cast(character: PlayerAPI?): Boolean {
+        character!!.play_animation("cast_fireball")
         return true
     }
-
-    //on_cast
 
     override fun on_use(player: PlayerAPI) {
         val target = player.combat.target
         player.play_animation("endcast_fireball")
-        player.combat.send_projectile("frostbolt", 15)
-
-        val snaredTime = target.combat.snare(6)
-        if (snaredTime > 0)
-            target.add_buff("snared", player, snaredTime)
+        player.combat.send_projectile("fireball", 60)
+        target.add_buff("fire", player, 15)
     }
+
+    override fun can_walk(): Boolean {
+        return false
+    }
+
 
 }

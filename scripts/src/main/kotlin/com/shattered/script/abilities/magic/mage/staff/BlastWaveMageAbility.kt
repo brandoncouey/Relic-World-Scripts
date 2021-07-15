@@ -1,10 +1,10 @@
-package com.shattered.script.abilities.magic
+package com.shattered.script.abilities.magic.mage.staff
 
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
 import java.util.*
 
-class FireballMagicAbility : AbilityScript() {
+class BlastWaveMageAbility : AbilityScript() {
 
 
     override fun name(): String {

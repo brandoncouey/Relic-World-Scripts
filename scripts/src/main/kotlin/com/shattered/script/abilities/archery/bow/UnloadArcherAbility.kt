@@ -1,10 +1,10 @@
-package com.shattered.script.abilities.archery
+package com.shattered.script.abilities.archery.bow
 
 import com.shattered.script.api.RelicCharacterAPI
 import com.shattered.script.api.impl.PlayerAPI
 import com.shattered.script.types.AbilityScript
 
-class ArcaneShot : AbilityScript() {
+class UnloadArcherAbility : AbilityScript() {
 
 
     override fun name(): String {
